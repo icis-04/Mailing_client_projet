@@ -37,4 +37,4 @@ p.add_header('content-disposition',f'attachment; filename={filename}')
 msg.attach(p)
 
 text = msg.as_string()
-server.sendmail('iwuchukwuchidera04@gmail.com','biningandfinance@gmail.com',text)
+server.sendmail('youremail','destinationemail',text)
